@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3   CMakeFiles/runTests.dir/Fraction.cpp.o CMakeFiles/runTests.dir/Tests.cpp.o CMakeFiles/runTests.dir/main.cpp.o  -o runTests -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

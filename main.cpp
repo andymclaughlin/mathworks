@@ -1,7 +1,8 @@
 #include "Fraction.h"
+#include <gtest/gtest.h>
 
-int main(){
+int main(int argc, char **argv){
 
-    Fraction test = Fraction(3,0);
-    runTests(); 
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

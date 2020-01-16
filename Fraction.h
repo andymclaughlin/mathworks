@@ -1,5 +1,6 @@
 int runTests();
 
+
 class Fraction {
     private:
         //n is the numerator

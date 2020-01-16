@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andy/mathworks/Fraction.cpp
+iostream
+-
+algorithm
+-
+Fraction.h
+/home/andy/mathworks/Fraction.h
+stdexcept
+-
+
+/home/andy/mathworks/Fraction.h
+
+/home/andy/mathworks/Tests.cpp
+Fraction.h
+/home/andy/mathworks/Fraction.h
+gtest/gtest.h
+-
+stdexcept
+-
+
+/home/andy/mathworks/main.cpp
+Fraction.h
+/home/andy/mathworks/Fraction.h
+gtest/gtest.h
+-
+

@@ -1,1 +1,1 @@
-./fraction
+./runTests

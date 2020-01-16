@@ -1,11 +1,3 @@
-To compile the Fraction test program use cd to change director to the folder containing this file and then run the following command.
-
-./compile.sh 
-
-To run the program that tests the Fraction class execute the ./run.sh command.
-
-The test program uses the Google test C++ framework to run 8 unit tests. The output of the test suite is copied below. The tests can be found in the Tests.cpp file.
-
 [==========] Running 8 tests from 1 test case.
 [----------] Global test environment set-up.
 [----------] 8 tests from FractionTests
